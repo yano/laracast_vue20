@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.css">
+    <style type="text/css">body { padding-top: 40px; }</style>
+</head>
+
+<body>
+
+<div class="container">
+    <h1>lesson 13</h1>
+</div>
+
+<div id="root" class="container">
+
+    <my-coupon @applied="onCouponApplied"></my-coupon>
+
+    <h3 v-if="couponApplied">クーポンが適用されました！</h3>
+
+</div>
+
+
+<script src="https://unpkg.com/vue@2.5.13/dist/vue.js"></script>
+
+<script src="main13.js"></script>
+
+</body>
+</html>
+
